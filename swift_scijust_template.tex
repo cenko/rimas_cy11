@@ -1,0 +1,170 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% NAME:		swift_scijust_template.tex
+% LANGUAGE:	LaTeX
+% AUTHOR:	Eleonora Troja, eleonora.troja@nasa.gov
+% CREATED:	2014-08-01
+% MODIFIED:	2014-08-01
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LaTeX template for the science justification & technical feasibility
+%% to be submitted as part of a Swift Guest Investigator proposal.
+%%
+%% Swift Cycle 11
+%% Deadline: 25 September 2014, 4.30pm EDT
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Default format: 11pt single column %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper,11pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Default font, two-column %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\documentclass[letterpaper,11pt,twocolumn]{article
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Included packages %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{graphics,graphicx}
+\usepackage{psfig}
+\usepackage{times}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Page dimensions                       %%%%%
+%%%%% DO NOT CHANGE THE FOLLOWING 9 LINES!  %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\setlength{\textwidth}{7in} 
+\setlength{\textheight}{9.5in}
+\setlength{\topmargin}{-0.2in} 
+\setlength{\oddsidemargin}{-0.2in}
+\setlength{\evensidemargin}{-0.2in} 
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in} 
+\setlength{\hoffset}{0in}
+\setlength{\voffset}{0in}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Section heading format %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeatletter
+\renewcommand{\section}{\@startsection%
+{section}{1}{0mm}{-\baselineskip}%
+{0.5\baselineskip}{\normalfont\Large\bfseries}}%
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%  NOTES:
+% 
+%  - THE SCIENTIFIC JUSTIFICATION MUST NOT EXCEED 4 PAGES!
+%     (The only exception are proposals in the "high redshihft GRB" category which can have up to 6 pages
+%
+%  - THE "BUDGET NARRATIVE" MUST BE LESS THAN 1 PAGE AND DOES  NOT  COUNT TOWARD THE ABOVE PAGE LIMIT
+%
+%  - IT IS STRONGLY RECOMMENDED TO USE A FONT SIZE OF 11pt OR LARGER.
+%
+%  - Do NOT include a CV, current and pending support, or amny other supporting information 
+%
+%  - THE SCIENTIFIC JUSTIFICATION MUST BE SUBMITTED AS A PDF  FILE:
+%
+%  latex swift_scijust_template.tex
+%  dvips swift_scijust_template -o swift_scijust_template.ps
+%  ps2pdf swift_scijust_template.ps swift_scijust_template.pdf
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+\pagestyle{plain}
+\pagenumbering{arabic}
+
+\begin{center} 
+\bfseries\uppercase{Title of Your Proposal}
+\end{center}
+\vspace{-0.3cm}
+\centerline{\bf PI: {A. Author}}
+ 
+\noindent {\bf 1. Abstract}
+\smallskip\\
+Your concise abstract goes here. Please use the same abstract as in the Remote Proposal System (RPS) form. \\
+
+\noindent {\bf 2. Description of the Proposed Program}
+\smallskip\\
+\noindent {\it A) Scientific Rationale:}
+\smallskip\\
+Give the scientific background of your proposed study.
+
+\noindent {\it B) Immediate Objective:}
+\smallskip\\
+State what you are proposing to observe and what the goals of the proposed study are. \\
+
+\noindent {\bf 3. Justification of Requested Observing Time, Feasibility, and Visibility}
+\smallskip\\
+The requested observing time, intrument modes, and any constraints have to be explained in detail here. 
+In particular, give the expected significance of detection, count rates and fluxes, along with errors 
+and background estimates for each of the instruments that are relevant to your study. 
+
+Make sure that you check for bright stars within the UVOT field of view that might prohibit UVOT observations.
+If you chose certain UVOT filters, you need to give a strong justification for the filter choice(s). 
+If not strongly justified, UVOT observations will be performed in the ``Filter of the Day'' mode to 
+minimize UVOT filter wheel rotations. 
+
+Proposers must clearly describe how their proposal capitalizes on the unique capabilities of Swift.
+
+If more than one target is proposed, give the priority of each target in case only some of your targets are accepted.
+If this is a monitoring program, give the cadence of observations and all time constraints. 
+If this is a ToO proposal, explain and justify the trigger criteria and give a realistic estimate of the probability 
+that the ToO will be triggered.
+
+If this is a joint proposal, proposers must provide a full and comprehensive justification
+of the NRAO portion of their program. This must include the choice of telescopes (VLA, VLBA, and/or GBT),
+and the total estimated observing time.
+
+
+\noindent {\bf 4. Justification of Duplication}
+\smallskip\\
+It is the responsibility of the proposers to check the proposed observations against 
+the catalog of previously executed observations or accepted programs. 
+If any duplication exists, it must be identified and justified in the proposal.\\
+
+\noindent {\bf 5. Report on Previous Swift and Related Programs}
+\smallskip\\
+Here you can report on previous studies (with Swift or non-Swift) that are related to this proposal. \\
+If you had a proposal accepted during the past 3 Swift Cycles (Cycle 8, 9, or 10), you MUST give results here. \\
+
+\noindent {\bf 6. References}
+\smallskip\\
+{\small
+Author1 A.\ et al., YYYY, Journal, Vol, page \\
+}
+
+\noindent {\bf 7. Budget Narrative}
+\smallskip\\
+If you request funds, give a description of how the funds will be used and the scale of workforce needed 
+to carry out the investigation. Give sufficient details and actual numbers to allow us to judge your effort. 
+The page limit of the Budget Narrative section is 1-page, which will NOT count toward the overall page limit of your proposal. 
+
+
+%-----------------------------Figure Start------------------------------
+\begin{figure}[htp!]
+\begin{center}
+\hbox{
+%%uncomment the following line to include your fig1a.ps postscript file:
+%\psfig{figure=fig1a.ps,height=4.0cm,width=8.0cm,angle=0
+}
+\hspace{0.5cm}
+% un-comment the following line to include your fig1b.ps postscript file:
+%\psfig{figure=fig1b.ps,height=4.0cm,width=7.0cm,angle=0}
+}
+\end{center}
+\caption{\footnotesize
+{{\it Left panel}: here you see...
+{\it Right panel}: here you see...}}
+\label{fig1}
+\end{figure}
+%-----------------------------Figure End--------------------------------
+
+\end{document}
