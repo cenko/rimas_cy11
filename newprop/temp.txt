@@ -1,0 +1,12 @@
+RIMAS is a new NIR instrument designed expressly to identify high-redshift 
+$\gamma$-ray bursts (GRBs) from \textit{Swift} within minutes, scheduled to be installed on the 
+4.3\,m Discovery Channel Telescope (DCT) in the first half of 2015. RIMAS can operate in and switch 
+rapidly (10s of seconds) between three modes: 1) simultaneous 2-band imaging; 2) high-throughput, $R \approx 25$ 
+NIR spectroscopy; 3) high-resolution ($R \approx 4500$), cross-dispersed echelle spectroscopy providing 
+simultaneous coverage from 0.9--2.4\,$\mu$m. Unlike other large aperture facilities that 
+are classically scheduled, RIMAS will be continuously available for automated ToO observations. 
+Additionally, the instrument's pick-off dichroic beamsplitter will allow simultaneous coverage with a visible imager, 
+the Large Monolithic Imager (LMI). By the end of cycle 11, we intend for RIMAS to be routinely 
+obtaining rapid multi-color photometry and NIR spectra of \textit{Swift} afterglows to measure 
+their redshifts and constrain properties of their host galaxies and the surrounding 
+IGM.

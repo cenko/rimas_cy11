@@ -1,0 +1,55 @@
+<BEGIN>
+<PROJECT=SWIFTRPS>
+<COVER>
+Proposal Type [format=I1,required]: 2
+Science Subject [format=A25,required]: Gamma-Ray Bursts
+Other Science Subject [format=A25]: 
+Proposal Title [format=A120,required]: THE RAPID IMAGER AND SPECTROGRAPH (RIMAS): A NEW WINDOW INTO THE HIGH-REDSHIFT UNIVERSE
+Abstract [format=A800,required]: RIMAS is a new NIR instrument designed expressly to identify high-redshift GRBs from Swift, scheduled to be installed on the 4.3 m Discovery Channel Telescope in the first half of 2015. RIMAS can operate in and switch rapidly (10s of seconds) between three modes: 1) simultaneous 2-band imaging; 2) high-throughput, R~25 NIR spectroscopy; 3) high-resolution (R~4500), cross-dispersed echelle spectroscopy providing simultaneous coverage from 0.9-2.4um. Unlike most classically scheduled facilities, RIMAS will be continuously available for rapid-response (dt <~ minutes) ToO observations. By Cycle 11, RIMAS will be routinely obtaining rapid multi-color photometry and NIR spectra of Swift afterglows to measure their redshifts and constrain properties of their host galaxies and the surrounding IGM.
+Principal Investigator Title [format=A10]: DR.
+First Name [format=A30,required]: STEPHEN
+Middle Name or Initial [format=A30]: BRADLEY
+Last Name [format=A30,required]: CENKO
+Department [format=A60]: ASTRONOMY
+Institution [format=A60,required]: NASA/GSFC
+Street Address [format=A60,required]: ASTROPHYSICS SCIENCE DIVISION
+Additional Address [format=A60]: MAIL CODE 661
+City or Town [format=A30,required]: GREENBELT
+State or Province [format=A30]: MD
+Zip or Postal Code [format=A10]: 20771
+Country [format=A10,required]: USA
+Telephone Number [format=A24,required]: 301-286-4678
+Fax Number [format=A24]: 
+E-mail Address [format=A60,required]: brad.cenko@nasa.gov
+Co-Investigator First Name(1) [format=A20]: Alexander
+Co-Investigator Last Name(1) [format=A20]: Kutyrev
+Co-Investigator Institution(1) [format=A60]: NASA/GSFC & UMD
+Co-Investigator Country(1) [format=A10]: USA
+Co-Investigator E-mail Address(1) [format=A60]: alexander.s.kutyrev@nasa.gov
+Co-Investigator First Name(2) [format=A20]: Neil
+Co-Investigator Last Name(2) [format=A20]: Gehrels
+Co-Investigator Institution(2) [format=A60]: NASA/GSFC
+Co-Investigator Country(2) [format=A10]: USA
+Co-Investigator E-mail Address(2) [format=A60]: neil.gehrels@nasa.gov
+Co-Investigator First Name(3) [format=A20]: Vicki
+Co-Investigator Last Name(3) [format=A20]: Toy
+Co-Investigator Institution(3) [format=A60]: UNIVERSITY OF MARYLAND (COLLEGE PARK)
+Co-Investigator Country(3) [format=A10]: USA
+Co-Investigator E-mail Address(3) [format=A60]: vtoy@astro.umd.edu
+Co-Investigator First Name(4) [format=A20]: John
+Co-Investigator Last Name(4) [format=A20]: Capone
+Co-Investigator Institution(4) [format=A60]: UNIVERSITY OF MARYLAND (COLLEGE PARK)
+Co-Investigator Country(4) [format=A10]: USA
+Co-Investigator E-mail Address(4) [format=A60]: jicapone@astro.umd.edu
+Co-Investigator First Name(5) [format=A20]: Jay
+Co-Investigator Last Name(5) [format=A20]: Norris
+Co-Investigator Institution(5) [format=A60]: BOISE STATE UNIVERSITY
+Co-Investigator Country(5) [format=A10]: USA
+Co-Investigator E-mail Address(5) [format=A60]: jnorris@custertel.net
+Co-Investigator Telephone [format=A24]: 
+Number of Undergraduate Students Involved [format=I3,required]: 0
+Number of Graduate Students Involved [format=I3,required]: 2
+Receive Evaluation by E-mail [format=A1,unit=Y/N,required]: Y
+Anticipated Total Budget [format=F5.1,unit=kUS$,required]: 120.0
+NASA FTE Commitment [format=F7.4,unit=FTE,required]: 0.0000
+<END>

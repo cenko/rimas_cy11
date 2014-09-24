@@ -23,6 +23,7 @@
 \usepackage{amssymb,amsmath}
 \usepackage{natbib}
 \usepackage{aastexug}
+\usepackage{hyperref}
 
 % DO NOT CHANGE THE FOLLOWING 9 LINES!
 \setlength{\textwidth}{7in} 
@@ -86,22 +87,21 @@
 	into the High-Redshift Universe}
 \end{center}
 \vspace{-0.3cm}
-\centerline{\bf PI: {A. Kutyrev}}
+\centerline{\bf PI: {S.~B.~Cenko}}
  
 \noindent {\bf 1. Abstract}
 \smallskip\\
 RIMAS is a new NIR instrument designed expressly to identify high-redshift 
-$\gamma$-ray bursts (GRBs) from \textit{Swift} within minutes, scheduled to be installed on the 
-4.3\,m Discovery Channel Telescope (DCT) in the first half of 2015. RIMAS can operate in and switch 
-rapidly (10s of seconds) between three modes: 1) simultaneous 2-band imaging; 2) high-throughput, $R \approx 25$ 
-NIR spectroscopy; 3) high-resolution ($R \approx 4500$), cross-dispersed echelle spectroscopy providing 
-simultaneous coverage from 0.9--2.4\,$\mu$m. Unlike other large aperture facilities that 
-are classically scheduled, RIMAS will be continuously available for automated ToO observations. 
-Additionally, the instrument's pick-off dichroic beamsplitter will allow simultaneous coverage with a visible imager, 
-the Large Monolithic Imager (LMI). By the end of cycle 11, we intend for RIMAS to be routinely 
-obtaining rapid multi-color photometry and NIR spectra of \textit{Swift} afterglows to measure 
-their redshifts and constrain properties of their host galaxies and the surrounding 
-IGM. \\
+$\gamma$-ray bursts (GRBs) from \textit{Swift}, scheduled to be installed on the 
+4.3\,m Discovery Channel Telescope (DCT) in the first half of 2015. RIMAS can operate 
+in and switch rapidly (10s of seconds) between three modes: 1) simultaneous 2-band 
+imaging; 2) high-throughput, $R \approx 25$ NIR spectroscopy; 3) high-resolution ($R 
+\approx 4500$), cross-dispersed echelle spectroscopy providing simultaneous coverage 
+from 0.9--2.4\,$\mu$m.  Unlike most classically scheduled facilities, RIMAS will be 
+continuously available for rapid-response ($\Delta t \lesssim$ minutes) ToO 
+observations.  By Cycle 11, RIMAS will be routinely obtaining rapid multi-color 
+photometry and NIR spectra of Swift afterglows to measure their redshifts and 
+constrain properties of their host galaxies and the surrounding IGM. \\
 
 \noindent {\bf 2. Description of the Proposed Program}
 \smallskip\\
@@ -140,9 +140,10 @@ unambiguously establish that GRBs explode and are detectable at the relevant red
 of interest.  In fact we have relatively precise constraints on the rate of such events from 
 unbiased \textit{Swift} samples: $\approx$ a few percent of the \textit{Swift} population 
 resides at $z \gtrsim 7$ (1--2 events per year; \cite{pcb+09,gkk+11}).  Furthermore, 
-high signal-to-noise ratio (SNR) spectroscopy of the $z = 5.913$ GRB\,130606A (Figure 1) 
-enabled for the first time a strict upper limit on the neutral H fraction of $x_{\mathrm{H\,I}} < 0.11$ 
-from the lack of a Ly$\alpha$ red damping wing \cite{cbf+13}.
+high signal-to-noise ratio (SNR) spectroscopy of the $z = 5.913$ GRB\,130606A 
+and $z = 6.33$ GRB\,140515A (Figure 1) enabled for the first time strict upper limits 
+on the neutral H fraction from the profile of the Ly$\alpha$ red damping wing 
+\cite{cbf+13,hmf+14,cse+13,cbf+14}.
 
 %-----------------------------Figure Start------------------------------
 \begin{figure}[tp!]
@@ -150,29 +151,27 @@ from the lack of a Ly$\alpha$ red damping wing \cite{cbf+13}.
 \hbox{
 % un-comment the following line to include your fig1a.ps postscript file:
 %\psfig{figure=figures/Slide1.jpg,height=4.0cm,width=8.0cm,angle=0}
-\includegraphics[width=0.5\textwidth]{figures/Slide1.pdf}
+\includegraphics[width=0.4\textwidth]{figures/Slide1.pdf}
 % un-comment the following line to include your fig1b.ps postscript file:
 %\psfig{figure=fig1b.ps,height=4.0cm,width=7.0cm,angle=0}
-\includegraphics[width=0.5\textwidth]{figures/Slide2.pdf}
+\includegraphics[width=0.6\textwidth]{figures/GRB140515A.pdf}
 }
-\vspace{-1.5cm}
+\vspace{-1.0cm}
 \end{center}
 \caption{\footnotesize
 {{\it Left panel}: NIR spectrum of the afterglow of the $z = 8.2$ 
-GRB\,090423\cite{tfl+09}, obtained with ISAAC on the VLT at full 16\,hr
+GRB\,090423\cite{tfl+09}, obtained with ISAAC on the VLT at a full 16\,hr
 after the burst trigger time.  While the sharp break in the spectrum (consistent
 with that obtained from broadband photometry) indicates a redshift of $z \approx
 8.2$, the low SNR precludes meaningful constraints on $x_{\mathrm{H\,I}}$.
-{\it Right panel}: Optical spectra of the $z = 5.913$ 
-GRB\,130606A\cite{cbf+13}.  The sharp
-drop in flux blueward of $\sim 8300$\,\AA\ is due to absorption from neutral H
-in the host galaxy and intervening IGM.  Modeling the red wing of the Ly$\alpha$
-absorption enabled the first constraints on $x_{\mathrm{H\,I}}$ 
-comparable to what has been obtained
-from QSOs at $z \approx 6$.  However, thus far, no high SNR spectra of a GRB
+{\it Right panel}: Redshift evolution of the IGM from GRBs and quasars.  
+  Recent observations of GRB\,140515A (blue and red\cite{cbf+14}) and
+  GRB\,130606A (cyan and green\cite{cbf+13}) are compared with limits
+  from quasar observations.  Even with just a small number of sightlines, 
+  GRBs can provide powerful constraints at redshifts $z \lesssim 6$.
+ However, thus far, no high SNR spectra of a GRB
 afterglow has been obtained at a redshift directly probing the epoch 
 of reionization ($z \gtrsim 7$).}}
-\label{fig1}
 \end{figure}
 %-----------------------------Figure End--------------------------------
 
@@ -218,7 +217,8 @@ Maryland, and Lowell Observatory.  The instrument is being designed for the rece
 commissioned 4.3\,m Discovery Channel Telescope (DCT).  RIMAS will be installed on one 
 port of the DCT ``instrument cube'', where a pick-off dichroic beamsplitter will allow users to
 switch between multiple instruments with an overhead of only seconds and simultaneously
-image visible wavelengths with LMI.
+image visible wavelengths with the Large Monolithic Imager 
+(LMI\footnote{\url{http://www.lowell.edu/techSpecs/LMI/LMI.html}}).
 
 RIMAS has three operating modes: imaging, low spectral resolution (R $\approx 25$) and
 a high resolution mode ($R \approx 4500$). The spectral coverage spans from 
@@ -226,9 +226,11 @@ a high resolution mode ($R \approx 4500$). The spectral coverage spans from
 with two detectors allowing for a simultaneous imaging in two bands, $Y$ or $J$ in 
 one arm of the instrument, and $H$ or $K$ in the other.  The designed ensquared
 energy is near the diffraction limit, with one pixel corresponding to 0.35\arcsec, 
-and a field-of-view of 3\arcmin $\times$ 3\arcmin.  With its broad spectral coverage 
-and both imaging and spectral modes available, RIMAS will be a powerful tool for 
-both rapid (within minutes) photometric and spectroscopic follow-up of \textit{Swift} GRBs.
+and a field-of-view of 3\arcmin $\times$ 3\arcmin\ (well matched to BAT localizations,
+so that we can begin imaging even before XRT localizations are available).  
+With its broad spectral coverage and both imaging and spectral modes available, 
+RIMAS will be a powerful tool for rapid (within minutes) photometric and 
+spectroscopic follow-up of \textit{Swift} GRBs.
 
 \smallskip
 
@@ -239,7 +241,7 @@ dewar operating at $\approx 60$\,K under vacuum. The attachment contains field-l
 slits, which can be placed at the focus of the telescope for use with the 
 dispersive elements. Slits of various sizes or an open slot for photometry can be selected by 
 rotating a slit wheel. The surface of each slit is a mirror that reflects light into a slit-imaging 
-camera (with 256 x 256, 80\arcsec\ diameter IR detector) to help observers center light from 
+camera (256 x 256 pixel, 80\arcsec\ diameter IR detector) to help observers center light from 
 their source through the slit.  The slit-wheel will have a pick-off mirror for the future 
 installation of MOHSIS, a fiber-Bragg grating (FBG) atmospheric hydroxyl (OH) emission 
 line suppressor. Behind the slit-wheel, there is a  filter wheel for program-specific specialty filters. 
@@ -263,13 +265,12 @@ Light from the DCT first passes through the filter and slit wheels in the
 front module, is collimated and continues until focused by the ``YJ-band'' 
 (0.9--1.4\,$\mu$m) or ``HK-band'' (1.4--2.4\,$\mu$m) camera.
 {\it Right panel}: A photo of RIMAS in the lab at Goddard Space Flight Center.}}
-\label{fig2}
 \end{figure}
 %-----------------------------Figure End--------------------------------
 
 All of the optics are kept cold ($T \approx 60$\,K) to reduce 
-thermal background, which is crucial at the long end of the instrument’s 
-wavelengths in $K$-band. The beam is separated into two optical arms by a
+thermal background, which is crucial at the long end of the instrument 
+bandpass in $K$-band. The beam is separated into two optical arms by a
 dichroic beamsplitter. The first arm is for the $Y$- and $J$-bands 
 (0.97--1.07 and 1.17--1.33\,$\mu$m, respectively), and the second is for the $H$- 
 and $K$-bands (1.49-1.78 and 2.03--2.37\,$\mu$m, respectively). Each 
@@ -279,7 +280,7 @@ The wheels allow the observer or automation software to switch between instrumen
 within seconds.  The light of each arm will be focused onto a Teledyne HAWAII-2RG (H2RG) detector.
 
 High-resolution spectroscopy will be achieved for each optical arm by using 
-multiple, cross-dispersed orders of transmission gratings.  RIMAS
+multiple, cross-dispersed orders of transmission gratings (Figure~3).  RIMAS
 can change modes in 10s of seconds.
 
 \smallskip
@@ -303,38 +304,14 @@ widths, these sensitivities are comparable to analogous instruments on
 similar-sized telescopes, e.g., TripleSpec on the Palomar 200\,inch telescope, and
 TripleSpec on the 3.5\,m ARC telescope.
 
-\smallskip
-
-\noindent{\underline{Rapid Response Expected Performance:}}
-We expect that RIMAS will be able to begin spectroscopy within 5 minutes of a bright GRB trigger.
-We observed GRB140215A on DCT with LMI and were able to get on source 
-within 3 minutes of the \textit{Swift} trigger manually.  We expect this response time will be significantly reduced with 
-automation software.  RIMAS's automation software will take short exposure images and 
-decide whether it should continue with longer exposure images or if the source is bright 
-enough to switch to either low- or high- resolution spectroscopy.
-
-We estimate 3$\sigma$ limiting magnitudes (AB) in 30\,s integration 
-in imaging mode for a point source obtained under good conditions: 
-$Y > 22.1$, $J > 22.1$, $H > 21.3$, $K > 20.9$.  For a bright source that means RIMAS can
-follow-up in less than 5 minutes.  The automation software will get a magnitude estimate and 
-choose between low- and high- resolution spectroscopy based on limiting magnitude calculations.
-This will allow RIMAS to obtain spectroscopy rapidly before the afterglow has faded beyond detection limits.
-
-%-----------------------------Figure Start------------------------------
-\begin{figure}[tp!]
-\begin{center}
-% un-comment the following line to include your fig1a.ps postscript file:
-%\psfig{figure=fig1a.ps,height=4.0cm,width=8.0cm,angle=0}
-\includegraphics[width=0.47\textwidth]{figures/slide5.pdf}
-\vspace{-0.9cm}
-\end{center}
-\caption{\footnotesize
-{ Estimated instrument photometric efficiency including atmospheric absorption, losses for each optical element and detector response. }}
-\label{fig2}
-\vspace{-0.4cm}
-\end{figure}
-
-%-----------------------------Figure End--------------------------------
+We expect that RIMAS will be able to begin spectroscopy within 5 minutes of a 
+bright GRB trigger.  On an observing run to help with the \textit{telescope} 
+commissioning in February 2014, we observed GRB140215A with LMI and were able to 
+get on source within 3 minutes of the \textit{Swift} trigger manually.  We expect this 
+response time will be further reduced with automation software.  The planned RIMAS  
+software will take short exposure images and automatically decide whether it should
+continue with longer exposure images or if the source is bright enough to switch 
+to either low- or high- resolution spectroscopy.
 
 \smallskip
 
@@ -378,6 +355,27 @@ RIMAS to quickly decide between its operating modes.
 A more detailed budget is provided in the Budget Narrative section at the end of 
 this proposal.\\
 
+%-----------------------------Figure Start------------------------------
+\begin{figure}[tp!]
+\begin{center}
+% un-comment the following line to include your fig1a.ps postscript file:
+%\psfig{figure=fig1a.ps,height=4.0cm,width=8.0cm,angle=0}
+\includegraphics[width=0.33\textwidth]{figures/slide5.pdf}
+\includegraphics[width=0.65\textwidth]{figures/xdisperse.pdf}
+\vspace{-0.9cm}
+\end{center}
+\caption{\footnotesize
+{ Left: Estimated instrument photometric efficiency including atmospheric absorption, 
+losses for each optical element and detector response.  Right: Model spectra produced 
+by the Y/J grism (left) and H/K grism (right).  The cross-dispersed echelle 
+configuration allows for simultaneous coverage from 0.9--2.4\,$\mu$m with a 
+resolution of $R \approx 4500$.  The numbers and arrows above the spectra mark the 
+grism diffraction orders. }}
+\vspace{-0.4cm}
+\end{figure}
+
+%-----------------------------Figure End--------------------------------
+
 
 
 \noindent {\bf 3. Justification of Requested Observing Time, Feasibility and Visibility}
@@ -392,13 +390,14 @@ RATIR), we anticipate that $\approx 10$ GRBs will be promptly ($\Delta t < 1$\,h
 observable to the DCT over the course of Cycle 11.  An additional 20--30 events will 
 be observable within 1\,d of the burst trigger time.
 
-We can estimate our detection efficiency using the sample of with prompt ($\Delta t
-< 1$\,d) with the GROND instrument on the MPI/ESO 2.2\,m telescope on La Silla 
+We can estimate our detection efficiency using the sample of \textit{Swift} 
+GRBs with prompt ($\Delta t
+< 1$\,d) observations by the GROND instrument on the MPI/ESO 2.2\,m telescope on La Silla 
 (Chile)\cite{gkk+11}.  Using their simultaneous 7-color imager, these authors report
-recovering $\approx$ 90\% of GRBs observed within 1\,hr, and $\approx$ 60\% of
+detecting $\approx$ 90\% of GRBs observed within 1\,hr, and $\approx$ 60\% of
 GRBs observed within 1\,d.  Given that RIMAS on the 4.3\,m DCT is expected to be
 $\approx 1.5$\,mag more sensitive in the NIR than GROND, these recovery fractions 
-represent extremely conservative lower limits for what we can expect with RIMAS. 
+represent conservative lower limits for what we can expect with RIMAS. 
 We therefore expect to detect (via broadband imaging) $\gtrsim 30$ GRB afterglows.
 
 Nearly all of the events we detect via broadband imaging will be sufficiently 
@@ -417,10 +416,15 @@ $\Delta t = 40$\,min, and $J = 19.2$\,mag at $\Delta t = 80$\,min.  Both filters
 sufficiently bright that we could obtain modest SNR ($\approx 5$ per resolution
 element) with a 1\,hr integration with RIMAS.  Similarly, GRB\,050904\cite{hnr+05}
 was observed with $J = 18.3$\,mag at $\Delta t = 3$\,hr, and $K = 18.6$\,mag as
-late as $\Delta t = 8$\,hr after the burst trigger.  If observed promptly, it is likely
-GRB\,050904 could have been well-detected by RIMAS.
+late as $\Delta t = 8$\,hr after the burst trigger.  If observed promptly, it is 
+nearly certain that GRB\,050904 could have been well-detected by RIMAS.
 
-Our collaboration has observed GRB afterglows at visible wavelengths during 4 separate, one week runs (non-ToO) using Large Monolithic Imager (LMI) on DCT. To date we have observed 12 GRB afterglows with 9 accompanying GCN circulars (Table \ref{table:DCTobs}), demonstrating the quality of the site and telescope. Additionally, we were able to begin observing GRB140215A 2.7 minutes post-bust without automation software.  We expect that we will be able to do much better once RIMAS has been commissioned and automated. \\
+Our collaboration has observed GRB afterglows at visible wavelengths during 4 separate, 
+one week runs (classically scheduled) using LMI on DCT. To date we have observed 12 GRB 
+afterglows with 9 accompanying GCN circulars (Table \ref{table:DCTobs}), demonstrating 
+the quality of the site and telescope. Additionally, we were able to begin observing 
+GRB\,140215A 2.7 minutes post-bust without automation software.  We expect that we will
+further improve this response time once RIMAS has been commissioned and automated. \\
 
 	\begin{table}[ht]
 		\vspace{-0.4cm}
@@ -449,16 +453,17 @@ Our collaboration has observed GRB afterglows at visible wavelengths during 4 se
 
 \noindent {\bf 4. Justification of Duplication}
 \smallskip\\
-We are not requesting a duplicate accepted proposal.\\
+N/A.\\
 
 \noindent {\bf 5. Report on Previous Swift and Related Programs}
 \smallskip\\
-This is our first request specifically for funding for RIMAS.  In previous cycles,
+This is our second time proposing for \textit{Swift} funding for RIMAS --
+our Cycle 10 proposal was highly rated but not funded.  In previous cycles,
 several members of our collaboration received \textit{Swift} GI funding for the 
 construction and commissioning of RATIR, a simultaneous 4-band optical and NIR
 imager mounted on the 1.5\,m Johnson telescope on Sierra San Pedro Martir in Baja 
 California.  RATIR now routinely observes \textit{Swift} GRB afterglows, publishing
-$>$ 100 GCNs over the past 2 years, with 6 refereed journal publications and 
+$>$ 100 GCNs over the past 3 years, with over a dozen refereed journal publications and 
 many others in the preparation stage. \\
 
 \noindent {\bf 6. References}
@@ -497,8 +502,8 @@ many others in the preparation stage. \\
 %Gamma-Ray Burst} \\
 %%%%%
 
-\bibliographystyle{nature.bst}
-%\bibliography{rimas.cy11.bib}
+\bibliographystyle{nature}
+\bibliography{rimas.cy11}
 }
 
 \clearpage
@@ -509,10 +514,10 @@ Costs are summarized in the table below and are fully loaded, i.e., salaries inc
 fringe benefits and all necessary items include appropriate institutional overheads.
 The components of the cost are:
 \begin{itemize}
-\item 4 months of effort (0.3 FTE) from a professional software engineer to provide
+\item 6 months of effort (0.5 FTE) from a professional software engineer to provide
 the low-level tools to control the instrument and interface with the DCT.  We plan
 to hire this individual as a (short-term) contractor at GSFC, for an estimated total
-cost of \$40k.
+cost of \$60k.
 \item 6 months of effort (0.5 FTE) from 1--2 University of Maryland graduate students
 to develop a data reduction pipeline for RIMAS.  In order to make intelligent
 decisions regarding the appropriate follow-up strategy for \textit{Swift} GRBs in
@@ -522,10 +527,10 @@ precise and robust pipeline for science-quality reductions, of obvious utility
 for the entire RIMAS user base, can be executed in a more leisurely manner (but will
 also be developed by these students).  We estimate a total cost for this effort 
 of \$25k.
-\item 1 month of effort (0.1 FTE) for PI Kutyrev to oversee the effort,
-including the installation of the hardware on the DCT, as well as supervising the
-professional programmer and graduate student(s) in software development.  The 
-total cost of his effort will be \$10k.
+\item 1 month of effort (0.1 FTE) for co-I Kutyrev to coordinate the instrument 
+commissioning, including the installation of the hardware on the DCT, as well as 
+supervising the professional programmer and graduate student(s) in software 
+development.  The total cost of his effort will be \$10k.
 \item 1 month of effort (0.1 FTE) for co-I Norris, to assist in the theoretical
 interpretation of early RIMAS results, in particular relating $x_{\mathrm{H\,I}}$
 measurements from RIMAS to previously observed QSOs as well as in the broader 
@@ -539,7 +544,7 @@ as well as for 1--2 team members (preferably graduate students) to travel to
 scientific conferences to present our results.
 \end{itemize}
 
-The total request cost thus comes to \$100k, with a total FTE request of 1.0.
+The total request cost thus comes to \$120k, with a total FTE request of 1.2.
 
 \smallskip
 
@@ -547,14 +552,14 @@ The total request cost thus comes to \$100k, with a total FTE request of 1.0.
 \begin{tabular}{lc}
 \multicolumn{2}{c}{\textbf{Projected Costs}} \\
 \hline
-Professional Software Development & 40k \\
+Professional Software Development & 60k \\
 Graduate Student Pipeline & 25k \\
 Kutyrev Oversight & 10k \\
 Norris Theoretical Interpretation & 10k \\
 Travel (DCT Commissioning, Upgrades) & 10k \\
 Publications (Page Charges, Conference) & 5k \\
 \hline
-\textbf{Total Cost} & \textbf{100k} \\
+\textbf{Total Cost} & \textbf{120k} \\
 \end{tabular}
 \end{center}
 
